@@ -1,0 +1,84 @@
+body{
+    top:0;
+    margin:0;
+    background-image: url("images.webp");
+    background-size: cover;
+}
+.container{
+    display: flexbox;
+    background-color: black;
+    opacity: 0.8;
+justify-content: center;
+position: absolute;
+top: 25%;
+left: 30%;
+right: 30%;
+border-radius: 15px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border: 5px violet solid;
+animation: myanim 3s infinite;
+padding:10px;
+}
+@keyframes myanim {
+    20% {
+       border-color: blueviolet;
+    }
+ }
+.text{
+    display: flex;
+    justify-content: center;
+    color: rgb(248, 248, 248);
+    font-family: gilroy-bold;
+    font-size: 50px;
+    text-align: center;  
+}
+.Q-top{
+    position:absolute;
+    top:0%;
+    background-color: black;
+    color: rgb(248, 248, 248);
+    font-family: gilroy-bold;
+    font-size: 18px;
+    text-align: center;  
+    width: 100%;
+    border-bottom: 2px violet solid;
+    animation: myanim 3s infinite;
+}
+.Q-bot{
+    position:absolute;
+    bottom:0%;
+    background-color: black;
+    color: rgb(248, 248, 248);
+    font-family: gilroy-bold;
+    font-size: 18px;
+    text-align: center;  
+    width: 100%;
+    border-top: 2px violet solid;
+    animation: myanim 3s infinite;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    color: rgb(248, 248, 248);
+    font-family: gilroy-bold;
+    font-size:40px;
+    text-align: center; 
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(248, 248, 248);
+    font-family: gilroy-bold;
+    font-size:18px;
+    text-align: center; 
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    display: block;
+    width:75px;
+    padding:25px;
+    
+}
